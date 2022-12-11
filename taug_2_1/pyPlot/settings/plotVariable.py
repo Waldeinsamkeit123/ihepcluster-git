@@ -26,5 +26,17 @@ NParticles.XaxisTitle = "Nparticles "; plotList.append(NParticles)
 
 
 #
+PT = treeVarPlot(totalSampleList,varName="Particle.PT",xmin=0,xmax=50,scale=1.,nBin=50)
+PT.XaxisTitle = "PT"; plotList.append(PT)
 
 #
+Eta = treeVarPlot(totalSampleList,varName="Particle.Eta",xmin=0,xmax=50,scale=1.,nBin=50)
+Eta.XaxisTitle = "Eta"; plotList.append(Eta)
+
+#
+Phi = treeVarPlot(totalSampleList,varName="Particle.Phi",xmin=0,xmax=50,scale=1.,nBin=50)
+Phi.XaxisTitle = "Phi"; plotList.append(Phi)
+
+#
+E = treeVarPlot(totalSampleList,varName="Particle.E",xmin=0,xmax=50,scale=1.,nBin=50)
+E.XaxisTitle = "E"; plotList.append(E)
