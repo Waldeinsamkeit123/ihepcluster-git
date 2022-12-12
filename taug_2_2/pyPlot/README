@@ -1,0 +1,27 @@
+this package handles massive plot
+
+After set python an pyroot, you just run it: 
+python go.py
+
+
+go.py just indicated what you do for a plot, normally you just need to comment out or un-comment out the relevant blocks, do not need to change the code 
+
+The plots folder:
+store the plots you generated
+
+The settings folder
+1:inputFile.py
+define the path, legend, line style, line color etc for a paticular sample, they should be same accross one analysis, and easy to update to new versions of analysis
+
+2:plotVariable.py
+add the variables and its binning you want to use here. this will apply to all input files 
+
+3:selectionCut.py
+define the selection cuts for data andd MC; the normalizations, correction factors, varias weights for MC
+
+The styles folder
+you can change all plot's style from files here
+
+The utils folder
+tools do things are defined here
+
